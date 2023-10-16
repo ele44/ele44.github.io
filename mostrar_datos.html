@@ -148,13 +148,13 @@
         
  
     </table>
-    
+    <button onclick="cargarDatos()">Cargar</button>
     <script>
       function checkCellValue(cellId, cellValue) {
         const cell = document.getElementById(cellId);
     
         if (cellValue === "Descanso") {
-          cell.style.color = "blue";
+          cell.style.color = "blue";1
         } else if (cellValue === "Pendiente Asignacion") {
           cell.style.color = "red";
         } else if (cellValue === "Tecnico" || cellValue === "Cliente") {
