@@ -1,0 +1,125 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+   /* Establece un fondo con un degradado lineal */
+background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+
+/* Centra el contenido horizontalmente y verticalmente */
+text-align: left;
+
+/* Establece el color del texto en blanco */
+color: white;
+
+/* Ajusta el tamaño de la letra (escala de letra) */
+font-size: 50px;
+
+/* Agrega un espacio interior de 10 píxeles alrededor del elemento */
+padding: 10px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/*/////////////////////////////////////////////*/
+    
+
+/* Establece un tipo de fuente predeterminado para el cuerpo del documento y elimina márgenes y rellenos predeterminados. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(220deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+    
+}
+
+/* Estiliza el encabezado (header) con un fondo azul y texto blanco, alineado a la izquierda, con un relleno interno de 10px. */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Define un margen interior al contenido principal para separarlo del encabezado y otros elementos circundantes. */
+main {
+    padding: 15px; /* Ajusta el valor del margen interior según tus preferencias */
+}
+
+/* Estiliza la tabla, haciéndola ancha (85% del ancho del contenedor), con un borde colapsado y un margen en la parte superior e inferior para centrarla. */
+table {
+    font-family: Arial, sans-serif;
+    width: 85%;
+    background: linear-gradient(305deg, rgb(238, 239, 240) 0.00%, rgb(255, 255, 255) 52.95%);
+    border-collapse: collapse;
+    margin: 100px auto; /* Margen superior e inferior para centrar la tabla */
+}
+
+/* Estiliza las celdas de la tabla con un borde de 1px sólido, relleno interno de 8px y texto centrado. */
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estiliza las celdas de encabezado con un fondo gris claro. */
+th {
+    background: linear-gradient(132deg, rgb(1, 46, 91) 0.00%, rgb(36, 37, 38) 100.00%);
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+/* Estiliza el contenedor de botones, centrando su contenido y agregando un margen en la parte superior. */
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estiliza los botones con un fondo azul oscuro, texto blanco y otros estilos de botón. */
+button {
+    background-color: #01263e;
+    border-radius: 15px; /* Controla el radio de las esquinas para lograr el efecto curvado */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+/* Cambia el color de fondo del botón al pasar el mouse sobre él. */
+button:hover {
+    background-color: #046db2;
+}
+
+/*///////////////////////////*/
+.rounded-background {
+    background: linear-gradient(132deg, rgb(1, 46, 91) 0.00%, rgb(36, 37, 38) 100.00%);
+    border-radius: 15px; /* Controla el radio de las esquinas para lograr el efecto curvado */
+    text-align: center;
+    color: white; /* Agrega color de texto para mayor contraste */
+    min-height: 150px; /* Altura mínima para el contenedor */
+}
